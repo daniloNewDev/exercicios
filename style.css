@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  min-height: 200vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 10000;
+  box-shadow: 0 3px 10px #43873C;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: #43873C;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #43873C;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li .link-list {
+  position: relative;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #43873C;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+.banner {
+  position: relative;
+  min-height: 200vh;
+  background: url(simbolocaboclo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #fff;
+}
