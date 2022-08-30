@@ -6,4 +6,4 @@ Ao acessar o atributo de um elemento usando "classList" e o método JS "toogle()
 
 Quando o usuário dá o "scrollY" na página, a barra de navegação recebe os valores da classe ."sticky" da folha de estilo.
 
-### Acesse a página [Sticky-Navbar]() para testar o efeito.
+### Acesse a página [Sticky-Navbar](https://danilonewdev.github.io/exercicios/sticky-navbar.html) para testar o efeito.
