@@ -7,7 +7,6 @@
 
 body {
   background: #fff;
-  min-height: 200vh;
 }
 
 header {
@@ -18,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.6s;
+  transition: 0.2s;
   padding: 40px 100px;
   z-index: 10000;
   box-shadow: 0 3px 10px #43873C;
@@ -59,15 +58,17 @@ header ul li .link-list {
   color: #43873C;
   letter-spacing: 2px;
   font-weight: 500px;
-  transition: 0.6s;
+  transition: 0.2s;
 }
 
 .banner {
   position: relative;
-  min-height: 200vh;
+  min-height: 100vh;
   background: url(simbolocaboclo.png);
+  background-size: 70vh;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 20vh;
 }
 
 header.sticky .logo,
